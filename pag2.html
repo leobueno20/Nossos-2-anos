@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ola socoro</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="var.css">
     <link rel="stylesheet" href="pag.css">
 </head>
 <body >
@@ -11,8 +13,20 @@
         <div class="tituloprici">Nossos momentos</div>
     </header>
     <main>
+        <div class="geral">
         <div class="2021">
             <h1>2021</h1>
+            <div class="fotos">
+                <img class="imagem" src="assets/ashby.jpeg" alt="Foto 1">
+                <img class="imagem" src="assets/casaTia.jpeg" alt="Foto 2">
+                <img class="imagem" src="assets/primeirodiaJU.jpeg" alt="Foto 3">
+                <img class="imagem" src="assets/represa1ju.jpeg" alt="Foto 3">
+                <!-- Adicione mais imagens conforme necessário -->
+            
+                <div id="modal" onclick="fecharImagem()">
+                    <img id="imagemModal" src="" alt="Imagem Ampliada">
+                </div>
+        </div>
         </div>
         <div class="2022">
             <h1>2022</h1>
@@ -23,7 +37,9 @@
         <div class="2024">
             <h1>2024</h1>
         </div>
+    </div>        
     
     </main>
+    <script src="pag2.js"></script>
 </body>
 </html>
