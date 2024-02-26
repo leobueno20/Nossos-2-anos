@@ -1,0 +1,91 @@
+/* Reset CSS */
+
+/* Box sizing border-box por padrão */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Remove espaçamento e margens padrão */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, pre {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove estilos padrão de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remover margens de imagens */
+  img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Remover decoração de link padrão */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remover estilos padrão de tabela */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Corrigir fonte e cor de fundo para serem herdados corretamente */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Adicionar estilo de seleção de texto */
+  ::selection {
+    background-color: #b3d4fc;
+  }
+  
+  /* Adicionar estilo de desfoque do foco */
+  :focus {
+    outline: 0;
+  }
+  
+  /* Corrigir problemas de legibilidade em elementos embaralhados por padrão */
+  address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  /* Remover quebra de texto automática e espaçamento extra entre linhas no Safari */
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Reiniciar todos os elementos */
+  html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+  }
+  
+  /* Corrigir renderização ruim de fontes em alguns dispositivos móveis */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Corrigir estilos inconsistentes de legenda do Firefox */
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  

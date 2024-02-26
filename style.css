@@ -1,0 +1,113 @@
+@media screen and (max-width: 412px){
+header h1{animation: pulse 2s infinite;}
+@keyframes pulse{
+    0%, 100%{transform: scale(0.85);}
+    50% {transform: scale(1.05);}
+
+
+}
+header{
+    display: grid;
+}
+header .titulo{
+    height: 11.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: var(--fonte2);
+    background-color: var(--cor5);
+    color: #ecf9fc;
+    overflow-x: hidden;
+}
+header .subtitulo{
+    margin-top: -2px;
+    font-size: 0.5rem;
+    font-family: var(--fonte2);
+    background-color: var(--cor5);
+    color: #ecf9fc;
+    
+}
+.titulo h1{
+    filter: drop-shadow(3px 2px 2px #E84720);
+}
+main{
+    padding: 2rem;
+    border: 2px solid var(--cor2);
+    background-color: #cfccd9e1;
+}
+main .texto{
+    font-family: var(--fonte1);
+    font-size: 0.6rem;
+}
+main .titulo-texto{
+    margin-bottom: 10px;
+    font-family: var(--fonte3);
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--cor1);
+    text-shadow: 2px 2px 2px black;
+}
+main .fotojuhoppy{
+    margin-top: 0.8rem;
+    border: 2px solid var(--cor3);
+    border-radius: 62% 38% 51% 49% / 29% 60% 40% 71%;
+    width: 15rem;
+    margin-left: 13%;
+    box-shadow: 0px 3px 22px black;
+}
+main .ovideo{
+    width: 100%; /* Define a largura do vídeo */
+    height: auto; /* Mantém a proporção da altura */
+    border-radius: 40% ; /* Borda arredondada */
+    box-shadow: 0 0 10px var(--cor1); /* Sombra */
+}
+.botaopag2{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+    width: 11rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    color: #fff;
+    font-size: 1rem;
+    height: 2rem;
+    font-family: var(--fonte2);
+}
+footer h1{
+    font-size: 1rem;
+    padding: 0 1rem;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.837);
+    color: #fff;
+}
+
+/* ALERTA INICIAL */
+.custom-alert {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-family: var(--fonte1);
+    transform: translate(-50%, -50%);
+    background-color: var(--cor5);
+    color: var(--cor1);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.custom-alert-content {
+    text-align: center;
+}
+.custom-alert button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgba(255, 0, 0, 0.679);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.custom-alert button:hover {
+    background-color: #0056b3;
+}
+}
