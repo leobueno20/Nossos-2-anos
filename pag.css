@@ -1,9 +1,41 @@
-.geral{
-    display: grid;   
+@media screen and (max-width: 412px){
+    
+body {
+    background-color: #A3CCAB;
 }
-.fotos2021 img{
-    width: 3rem;
+header{
+    text-align: center;
+    font-size: 4rem;
+    background-color: #34675C;
+    color: #F26800;
+    height: 15.5rem;
 }
+header .tituloprici{
+    padding-top: 1.5rem;
+}
+.geral {
+    text-align: center;
+    font-size: 1.8rem; 
+    font-family: var(--fonte2);
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    background-color: #14140F;
+    padding: 5px;
+    
+}
+.imagem {
+    width: 4rem; 
+    height: auto;
+    padding-bottom: 0.6rem;
+    margin: 0 2px;
+    
+}
+
 #modal {
     display: none;
     position: fixed;
@@ -23,8 +55,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid var(--cor2);
+    border-radius: 50% 50%;
+    
 }
 
 #imagem {
     cursor: pointer;
+}
 }
