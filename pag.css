@@ -1,12 +1,12 @@
 @media screen and (max-width: 412px){
     
 body {
-    background-color: #A3CCAB;
+    background-color: #f6aa1c;
 }
 header{
     text-align: center;
     font-size: 4rem;
-    background-color: #34675C;
+    background-color: #220901;
     color: #F26800;
     height: 15.5rem;
 }
@@ -25,17 +25,23 @@ header .tituloprici{
     flex-wrap: wrap;
     margin: 0.5rem;
     background-color: #14140F;
-    padding: 5px;
+    overflow: hidden;
+    
     
 }
 .imagem {
     width: 4rem; 
     height: auto;
-    padding-bottom: 0.6rem;
-    margin: 0 2px;
-    
+    object-fit: cover;
+    border-radius: 10%;
+    margin-top: 2%;
 }
-
+.a2022{
+    background-color: #501603;}
+.a2023{
+    background-color: #501603;}
+.a2024{
+   background-color: #501603;}
 #modal {
     display: none;
     position: fixed;
@@ -54,7 +60,7 @@ header .tituloprici{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid var(--cor2);
+    border: 2px solid #941b0c;
     border-radius: 50% 50%;
     
 }
