@@ -26,22 +26,18 @@ header .tituloprici{
     margin: 0.5rem;
     background-color: #14140F;
     overflow: hidden;
-    
-    
+    border-radius: 25px;
 }
 .imagem {
-    width: 4rem; 
-    height: auto;
+    width: 5rem; 
+    height: 12rem;
     object-fit: cover;
     border-radius: 10%;
     margin-top: 2%;
 }
 .a2022{
-    background-color: #501603;}
-.a2023{
-    background-color: #501603;}
-.a2024{
-   background-color: #501603;}
+    background-color: #651d04;
+}
 #modal {
     display: none;
     position: fixed;
