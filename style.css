@@ -60,6 +60,15 @@ main .ovideo{
     border-radius: 40% ; /* Borda arredondada */
     box-shadow: 0 0 10px var(--cor1); /* Sombra */
 }
+.tentar{
+    background-image: url(assets/2023/eubiquinho.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 31% 69% 23% 77% / 66% 32% 68% 34%;
+    color: #fff;
+}
 .botaopag2{
     position: relative;
     left: 50%;
